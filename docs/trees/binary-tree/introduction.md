@@ -12,7 +12,7 @@ From a graph theory perspective, binary (and K-ary) trees as defined here are ar
 In pre-order we always visit the current node, next we recursively traverse the current node's left subtree and then we recursively traverse the current node's right subtree. The pre-order traversal is a topologically sorted one, because a parent node is processed before any of its child nodes is done.
 
 ### In-order
-In in-order we always recursively traverse the current node's left subtree, next we visit the current node and lastly we recursively traverse the current node's right subtree
+In in-order we always recursively traverse the current node's left subtree, next we visit the current node and lastly we recursively traverse the current node's right subtree. This traversal order produces a sorted sequence of values if the binary tree is a binary search tree (BST).
 
 ### Post-order
 In post-order we always recursively traverse the current node's left subtree, next we recursively traverse the current node's right subtree and then visit the current node. Post-order traversal can be useful to get postfix expression of a binary expression tree.
