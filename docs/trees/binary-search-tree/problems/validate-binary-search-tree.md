@@ -2,7 +2,7 @@
 
 Given the `root` of a binary tree, determine if it is a valid binary search tree (BST).
 
-## Solution 1
+### Solution 1
 ```javascript
 var isValidBST = function(root) {
   if(!root) {
@@ -35,7 +35,7 @@ var isValidBST = function(root) {
 };
 ```
 
-## Solution 2
+### Solution 2
 ```javascript
 var isValidBST = function(root) {
   // Define a helper function to check if a binary tree is a valid BST

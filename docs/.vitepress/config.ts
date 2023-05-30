@@ -31,11 +31,17 @@ function sidebar() {
         },
         {
           text: 'Binary Search Tree',
-          items: [{
-            text: 'Introduction',
-            link: '/trees/binary-search-tree/introduction'
-          }]
+          items: [
+            {text: 'Introduction', link: '/trees/binary-search-tree/introduction'},
+            {text: 'Problems', link: '/trees/binary-search-tree/problems'}
+          ]
         }
+      ]
+    }, {
+      text: 'Misc',
+      collapsible: true,
+      items: [
+        { text: 'All Problems', link: '/misc/all-problems'},
       ]
     }
   ];
