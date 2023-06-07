@@ -19,6 +19,20 @@ export default defineConfig({
 function sidebar() {
   return [
     {
+      text: 'Hashtable',
+      collapsible: true,
+      items: [
+        { text: 'Problems', link: '/hashtable/problems'}
+      ]
+    },
+    {
+      text: 'Linked List',
+      collapsible: true,
+      items: [
+        { text: 'Problems', link: '/linked-list/problems'}
+      ]
+    },
+    {
       text: 'Trees',
       collapsible: true,
       items: [
