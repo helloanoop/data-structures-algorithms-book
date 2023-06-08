@@ -3,6 +3,7 @@
 Given the `root` of a binary tree, determine if it is a valid binary search tree (BST).
 
 ### Solution 1
+**Approach:** In-order traversal of a BST will result in a sorted list of values. We can use this fact to validate the BST by checking if the in-order traversal results in a sorted list.
 ```javascript
 var isValidBST = function(root) {
   if(!root) {
@@ -36,6 +37,8 @@ var isValidBST = function(root) {
 ```
 
 ### Solution 2
+**Approach:** We can also validate the BST by recursively checking if the current node's value is within the range of the min and max values of the current subtree. In a BST, as we traverse down the left subtree, we ensure that its left child's value is always less than the current node's value. Similarly, as we traverse down the right subtree, we ensure that its right child's value is always greater than the current node's value. We can use this fact to validate the BST by recursively checking the left and right subtrees with updated min and max values.
+
 ```javascript
 var isValidBST = function(root) {
   // Define a helper function to check if a binary tree is a valid BST
