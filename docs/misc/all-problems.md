@@ -1,4 +1,4 @@
-# All Problems
+# All Problems (7)
 
 ## Hashtable
 1. [Contains Duplicate](/hashtable/problems/contains-duplicate.md)
@@ -16,3 +16,4 @@
 ## Backtracking
 1. [Letter Combinations of a Phone Number](/backtracking/problems/letter-combinations-of-a-phone-number.md)
 2. [Generate Parentheses](/backtracking/problems/generate-parentheses.md)
+3. [Combination Sum](/backtracking/problems/combination-sum.md)

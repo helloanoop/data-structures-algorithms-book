@@ -38,7 +38,7 @@ var letterCombinations = function(digits) {
       return letters;
     }
 
-    var subCombinations = recurse(digits);
+    var subCombinations = backtrack(digits);
 
     for(i = 0; i < letters.length; i++) {
       subCombinations.forEach((sub) => {
