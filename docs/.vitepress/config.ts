@@ -19,6 +19,13 @@ export default defineConfig({
 function sidebar() {
   return [
     {
+      text: 'Sorting',
+      collapsible: true,
+      items: [
+        { text: 'Problems', link: '/sorting/problems'}
+      ]
+    },
+    {
       text: 'Hashtable',
       collapsible: true,
       items: [

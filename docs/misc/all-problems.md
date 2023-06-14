@@ -1,5 +1,7 @@
-# All Problems (7)
+# All Problems (8)
 
+## Sorting
+1. [Insertion Sort Singly Linked List](/sorting/problems/insertion-sort-singly-linked-list.md)
 ## Hashtable
 1. [Contains Duplicate](/hashtable/problems/contains-duplicate.md)
 
